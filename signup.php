@@ -29,14 +29,14 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
 
                 $mail = new PHPMailer(true);
                 $mail->isSMTP();
-                $mail->Host = 'smtp.gmail.com'; 
+                $mail->Host = ''; 
                 $mail->SMTPAuth = true;
-                $mail->Username = 'rajputamit1508@gmail.com'; 
-                $mail->Password = 'drve gkaz sune xolp';   
-                $mail->SMTPSecure = 'tls'; 
-                $mail->Port = 587; 
+                $mail->Username = ''; 
+                $mail->Password = '';   
+                $mail->SMTPSecure = ''; 
+                $mail->Port = ; 
 
-                $mail->setFrom('rajputamit1508@gmail.com', 'Amico');
+                $mail->setFrom('', '');
                 $mail->addAddress($to);
                 
                 $mail->Subject = $subject;
