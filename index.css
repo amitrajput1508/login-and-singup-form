@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background:  url("painting-mountain-lake-with-mountain-background.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  background: rgba(195, 207, 210, 0.544);
+  padding: 15px; /* Increase the padding for better visual appearance */
+  margin-top: 5px; /* Add a top margin of 5 pixels */
+  margin-left: 383px; /* Add a left margin of 10 pixels */
+  border-radius: 10px;
+  border-style: groove;
+  width:39%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px; /* Increase the spacing between menu items */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000; /* Set the color for the menu items */
+  font-weight: bold;
+  font-size: 18px; /* Increase the font size for the menu items */
+  padding: 8px 15px; /* Increase the padding for the menu items */
+  border-radius: 5px;
+  background-color: #ccc; /* Set the background color for the menu items */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.menu a:hover {
+  background-color: #ddd; /* Set the background color for the menu items on hover */
+}
+
+.login-signup button a {
+  transition-duration: 0.4s;
+  background: rgba(195, 207, 210, 0.544);
+  color: #3c3a3a;
+  border-radius: 7px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 3px 10px;
+  text-decoration: none; /* Remove underline */
+}
+
+.login-signup {
+  position: fixed;
+  margin-right: 45px;
+  margin-top: 5px;
+  top: 10px; /* Adjust the top position as needed */
+  right: 10px; /* Adjust the right position as needed */
+  z-index: 999; /* Adjust the z-index as needed */
+  margin-left: 0; /* Reset the margin-left */
+}
+
+
+.link-box a{
+  color: rgb(81, 36, 114);
+}
+ 
+.link-box p {
+  position: center;
+  margin-left: 55px;
+}
