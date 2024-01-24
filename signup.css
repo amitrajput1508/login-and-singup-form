@@ -1,0 +1,179 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background:  url("painting-mountain-lake-with-mountain-background.jpg") center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-box
+{
+  width: 40%;
+  max-width: 300px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(195, 207, 210, 0.544);
+  border-style: groove;
+  box-shadow: 0 0 10px rgba(40, 39, 39, 0.506);
+
+  border-radius: 7%;
+  padding: 30px 40px 50px;
+  text-align: center;
+  
+}
+.form-box h1
+{
+  font-size: 30px;
+  margin-bottom: 60px;
+  color: #000000;
+  position: relative;
+}
+.form-box h1::after{
+  content: '';
+  width: 30px;
+  height: 4px;
+  border-radius: 3px;
+  background: #000000;
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+input{
+  width: 100%;
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 12px 10px;
+  
+  
+}
+.input-field{
+  background: #eaeaea;
+  margin: 10px 5px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  max-height: 35px;
+  transition: max-height 0.5s;
+  overflow: hidden;
+  
+  
+}
+
+.input-field{
+  margin-left: 20px;
+  color: #999999ca;
+  
+}
+
+form p{
+  font-size: 13px
+}
+.btn-field{
+  width: 100%;
+
+}
+.btn-field button{
+  flex-basis: 60%;
+  background: #000000;
+  color: #fff;
+  height: 40px;
+  border-radius: 50px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+  padding: 10px 24px;
+  
+}
+
+.input-gourp{
+
+  height: 280px;
+}
+
+.btn-field button.disable
+{
+  background: #eaeaea;
+  color: #555;
+}
+.link-box {
+  position: relative;
+  left:-60px;
+
+}
+
+
+.input-field i{
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: rgba(0, 0, 0, 0.74);
+  font-size: 20px;
+}
+.menu {
+  background: rgba(195, 207, 210, 0.544);
+  padding: 15px; /* Increase the padding for better visual appearance */
+  margin-top: 5px; /* Add a top margin of 5 pixels */
+  margin-left: 330px; /* Add a left margin of 10 pixels */
+  border-radius: 10px;
+  border-style: groove;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px; /* Increase the spacing between menu items */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #000; /* Set the color for the menu items */
+  font-weight: bold;
+  font-size: 18px; /* Increase the font size for the menu items */
+  padding: 8px 15px; /* Increase the padding for the menu items */
+  border-radius: 5px;
+  background-color: #ccc; /* Set the background color for the menu items */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+.menu a:hover {
+  background-color: #ddd; /* Set the background color for the menu items on hover */
+}
+.login-signup button a {
+  transition-duration: 0.4s;
+  background: rgba(195, 207, 210, 0.544);
+  color: #3c3a3a;
+  border-radius: 7px;
+  display: inline-block;
+  font-size: 16px;
+  padding: 3px 10px;
+  text-decoration: none; /* Remove underline */
+}
+
+.login-signup {
+  margin-left: 250px;
+}
